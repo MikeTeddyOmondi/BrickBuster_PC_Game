@@ -14,4 +14,4 @@ Game where you control a paddle with the arrow keys to bounce a ball up to break
 
 ## Preview
 
-![game_preview](./BrickBuster_PC_Game.png)
+![game_preview]('BrickBuster_PC_Game.png')
