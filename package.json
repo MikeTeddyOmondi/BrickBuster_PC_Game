@@ -1,0 +1,11 @@
+{
+  "name": "brick_buster",
+  "version": "1.0.0",
+  "description": "a 2D game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mike Teddy Omondi",
+  "license": "MIT"
+}
