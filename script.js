@@ -193,6 +193,12 @@ function update() {
 
 update();
 
+//Reset game
+if (brickColumnCount === 0 && brickRowCount === 0) {
+  alert("Your score is: " + score)
+  drawBricks();
+}
+
 // Keydown event
 function keyDown(e) {
   if (e.key === 'Right' || e.key === 'ArrowRight') {
