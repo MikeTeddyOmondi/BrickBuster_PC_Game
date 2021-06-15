@@ -1,11 +1,14 @@
 {
-  "name": "brick_buster",
-  "version": "1.0.0",
-  "description": "a 2D game",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "author": "Mike Teddy Omondi",
-  "license": "MIT"
+    "name": "brick_buster",
+    "version": "1.0.0",
+    "description": "2D game",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package-win": "electron-packager . BrickBuster_PC_Game --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=RanckoSolutionsLLC --version-string.FileDescription=CE --version-string.ProductName=\"BrickBuster\"",
+        "package-mac": "electron-packager . BrickBuster_PC_Game --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+        "package-linux": "electron-packager . BrickBuster_PC_Game --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+    },
+    "author": "MikeTeddyOmondi",
+    "license": "MIT"
 }
