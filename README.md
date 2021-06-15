@@ -15,3 +15,9 @@ Game where you control a paddle with the arrow keys to bounce a ball up to break
 ## Preview
 
 <img src="https://github.com/MikeTeddyOmondi/BrickBuster_PC_Game/blob/master/BrickBuster_PC_Game.PNG" alt="Game Preview" width="800" height="600">
+
+## Package Distributions Available:
+- Windows [Download](./packages/BrickBuster_PC_Game-win32-ia32.zip)
+- MacOS [Download](./packages/BrickBuster_PC_Game-darwin-x64.zip)
+- Linux [Download](./packages/BrickBuster_PC_Game-linux-x64.zip)
+
